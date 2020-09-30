@@ -58,6 +58,7 @@ public class ExcelController {
         goodsList.add(new Goods("玉米", "1212"));
         goodsList.add(new Goods("土豆", "1213"));
         goodsList.add(new Goods("土", "1213"));
+        goodsList.add(new Goods("豆", "1213"));
 
         try {
 
