@@ -63,7 +63,7 @@ public class ExcelController {
             ExcelUtils.exportExcel(orderList, "订单", "订单", Order.class, "订单", response);
 
         } catch (IOException e) {
-            LOGGER.error("下载Excel文件报错,Exception:{}", e);
+            LOGGER.error("下载Excel文件报错xxx,Exception:{}", e);
         }
     }
 
